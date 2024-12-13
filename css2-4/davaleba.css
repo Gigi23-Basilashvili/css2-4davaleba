@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+  #headerImg {
+    /* margin-top: 50px; */
+    margin: 0 auto;
+    position: relative;
+    width: fit-content;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  #headerImg img {
+    margin-top: 35px;
+    display: block;
+    width: 1200px;
+    height: 580px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+  }
+  
+  #text-overlay {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    right: 10%;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+
+  #underHeaderBox{
+    padding: 25px;
+    width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    background: #007bb81f;
+    border-radius: 12px;
+  }
+  #underHeaderIntro h1{
+    color: #181D27;
+    font-family: "Inria Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 93.75% */
+    letter-spacing: -1.28px;
+  }
+  #underHeaderIntro p {
+    text-align: start;
+    color: #535862;
+    font-family: "Instrument Sans";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+  }
+  #underHeaderIput input{
+    border-radius: 8px;
+    padding: 10px;
+    width: 32%;
+    border: solid 1px grey;
+  }
+  #underHeaderIput button {
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background-color:#007CB8 ;
+  }
+
+  #UnderHeaderInputText{
+    margin-top: 8px;
+    font-size: 16px;
+    color: #535862;
+    /* text-align: start; */
+    margin-right: 95px;
+  }
+  
+
+  #footer{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 850px;
+    background: #007bb81f;
+    padding: 10px;
+    /* margin: 0 auto; */
+    margin-left: 530px;
+    text-align: center;
+  }
+  #footer h1{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-right: 25%;
+    font-size: 40px;
+  }
+  label {
+    margin-bottom: 8px;
+    display: block;
+    margin-right: 32%;
+  }
+  #footerInput input {
+    width: 37%;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #380054;
+  }
+  #footerInput input {
+    margin-right: 450px;
+  }
+  #footerInput label {
+    margin-right: 700px;
+  }
+  #test {
+    margin-top: 30px;
+    margin-right: 450px;
+  }
+  #circle-checkbox {
+    margin-right: 300px;
+    margin-top: 30px;
+    /* margin: 0 auto;
+    text-align: center; */
+    /* margin-right: 32%; */
+    padding-top: 10px;
+  }
+  #test span{
+    font-size: 14px;
+  }
